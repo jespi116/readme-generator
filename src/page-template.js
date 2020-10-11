@@ -103,7 +103,6 @@ const generateBadge = templateData => {
 
 
 module.exports = templateData => {
-    console.log(templateData);
 
     const { username, email, pName, desc, } = templateData;
     

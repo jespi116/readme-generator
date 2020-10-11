@@ -97,3 +97,9 @@ promptUser()
     .then(pageMd => {
         return generateMd(pageMd);
     })
+    .then(writeResponse => {
+        console.log(writeResponse.message);
+    })
+    .catch(err => {
+        console.log(err);
+    })

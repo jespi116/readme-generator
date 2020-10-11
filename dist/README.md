@@ -1,7 +1,7 @@
 
 # Run Buddy
 
-![GitHub License](https://img.shields.io/badge/license-APACHE_2.0-blue.svg)<br>
+![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)<br>
 ## Description:<br>
 A web aplication that connects people with personal trainers and provides useful information in order to motivate users to achieve their fitness goals!<br><br>
 ## Table of Contents<br>[Installation](#installation)<br>[Usage](#usage)<br>[License](#license)<br>[Contributing](#contributing)<br>[Tests](#tests)<br>[Questions](#questions)<br><br>
@@ -16,15 +16,15 @@ npm i
 
 ## Usage:
 
-it works!
+It works!
 <br><br>
 ## License:
 
-This project is licensed under the APACHE_2.0 license.
+This project is licensed under the MIT license.
 <br><br>
 ## Contributing:
 
-yes
+Refer to the contribution.md
 <br><br>
 ## Tests:
 
