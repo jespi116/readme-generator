@@ -4,7 +4,7 @@
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)<br>
 ## Description:<br>
 A web aplication that connects people with personal trainers and provides useful information in order to motivate users to achieve their fitness goals!<br><br>
-## Table of Contents<br>[Installation](#installation)<br>[License](#license)<br>[Tests](#tests)<br>[Questions](#questions)<br><br>
+## Table of Contents<br>[Installation](#installation)<br>[Usage](#usage)<br>[License](#license)<br>[Contributing](#contributing)<br>[Tests](#tests)<br>[Questions](#questions)<br><br>
 ## Installation:
 
 To install necessary depenecies, run the following command:
@@ -14,9 +14,17 @@ npm i
 ```
 <br>
 
+## Usage:
+
+It works!
+<br><br>
 ## License:
 
 This project is licensed under the MIT license.
+<br><br>
+## Contributing:
+
+Refer to the contribution.md
 <br><br>
 ## Tests:
 
