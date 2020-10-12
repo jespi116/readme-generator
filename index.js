@@ -6,11 +6,17 @@ const generateMd = require('./utils/generate-md.js');
 
 
 const promptUser = readmeData => {
+    console.log(
+`============================
+WELCOME TO README GENERATOR!
+============================`
+    )
+
     return inquirer.prompt([
         {
             type: 'input',
             name: 'username',
-            message: 'What is your GitHub Username?',
+            message: 'What is your GitHub Username? (Required)',
             validate: name => {
                 if (name){
                     return true;
@@ -23,7 +29,7 @@ const promptUser = readmeData => {
         {
             type: 'input',
             name: 'email',
-            message: 'What is your email address?',
+            message: 'What is your email address? (Required)',
             validate: email => {
                 if (email){
                     return true;
@@ -36,7 +42,7 @@ const promptUser = readmeData => {
         {
             type: 'input',
             name: 'pName',
-            message: "What is your project's name?",
+            message: "What is your project's name? (Required)",
             validate: name => {
                 if (name){
                     return true;
@@ -49,7 +55,7 @@ const promptUser = readmeData => {
         {
             type: 'input',
             name: 'desc',
-            message: 'Please wrtie a brief description of your project.',
+            message: 'Please wrtie a brief description of your project. (Required)',
             validate: desc => {
                 if (desc){
                     return true;

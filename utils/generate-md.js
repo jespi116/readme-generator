@@ -11,7 +11,9 @@ module.exports = mdData => {
 
             resolve({
                 ok: true,
-                message: '    README file created in dist folder!!'
+                message: `====================================
+README file created in dist folder!!
+====================================`
             })
         })
     })
